@@ -1,0 +1,118 @@
+.container {
+    max-width: 2000px;
+    margin:auto;
+}
+
+header {
+    display: flex;
+
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    background-color: #D9D9D9;
+}
+
+.LogoMicrosoft {
+    float:left;
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Isesion {
+    float:right;
+    padding-left:200px;
+}
+
+.contenedorMenuCabecera {
+    float:left;
+}
+
+.menuCabecera {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 2px;
+}
+
+.menuCabecera li{
+    list-style-type: none;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.txtBuscador{
+    float: right;
+    height:30px;
+    margin-top:50px;
+    width: 70px;
+}
+
+nav {
+    background-color: #ddd;
+}
+
+.menuNav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;  
+}
+
+.menuNav li{
+    list-style-type: none;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    white-space: nowrap;
+}
+.containerOW {
+    background-image: url(01.jpg);
+    background-repeat: no-repeat;
+    width:500px;
+    height:500px;
+}
+.JuegaGratis{
+    background-color: orange;
+    padding-top: 100px;
+    width: 160px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
+.containerVerde{
+    background-color: #006B0B;
+    width: 250px;
+    height: 300px;
+    float:right;
+}
+footer{
+    display:flex;
+    flex:nowrap;
+    background-color: #636363 ;
+    height: 50px;
+    font-size: 13px;
+}
+.logoMC{
+    float:right;
+    padding-left: 327px;
+}
+.foot{
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    white-space: nowrap;
+}
+.imgMando{
+    background-image: url(03.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+
+
